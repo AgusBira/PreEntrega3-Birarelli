@@ -9,6 +9,9 @@
 
 
 /* estilos main */
+.title h1{
+    text-align: center;
+}
 
 .container{
     display: flex;
@@ -47,4 +50,23 @@
 footer{
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* estilo desktop */
+
+@media screen and (min-width:1024px) {
+    .container{
+        flex-direction: row;
+    }
+    .container__contenido{
+        width: 500px;
+        
+    }
+    .container__contenido h3{
+        font-size: 2rem;
+    }
+    .container__contenido p{
+        font-size: 1.5rem;
+    }
 }
