@@ -27,33 +27,34 @@
             </div>
           </nav>
     </header>
-    <main class="container_contacto">
+    <main class="container contactos">
         
-        <section class="datos_container">
-        <div>
+        <div class="container__contenido__contacto">
             <p>Telefono: </p>
             <p>Email: </p>
             <p>Redes sociales: </p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt=""> 
+            <div class="container__contenido__contacto__imagenes">
+                <img src="../img/facebook.svg" alt="">
+                <img src="../img/instagram.svg" alt="">
+            </div>
         </div>
-        </section>
-        <section>
-            <fieldset>
+        <section class="container__contenido__form">
+            <fieldset class="container__contenido__form__field">
                 <legend>Enviame un mensaje</legend>
-                <div class="nombre">
+                <div class="contactos__contenido__form__input">
                     <label for="nombre">Nombre y apellido</label>
-                    <input type="text"id = "nombre" name="nombre" required>
+                    <input class="input-form" type="text"id = "nombre" name="nombre" required>
                 </div>
-                <div class="email">
+                <div class="contactos__contenido__form__input">
                     <label for="correo">Email</label>
-                    <input type="email"id = "correo" name="correo" >
+                    <input class="input-form" type="email"id = "correo" name="correo" >
                 </div>
-                <div class="mensaje">
+                <div class="contactos__contenido__form__input">
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="msj"></textarea>
+                    <textarea class="input-form" name="mensaje" id="msj"></textarea>
                 </div>
+                <input type="button" value="Enviar" name="boton" class="boton-enviar" >
+                
             </fieldset>
         </section>
         <footer>

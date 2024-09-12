@@ -56,13 +56,49 @@
 }
 .container__contenido__miarte img{
     width: 50%;
-
+/* estilos servicios */
 }
 .servicio{
     width: 90%;
 }
 .servicio img{
     width: 90%;
+}
+/* estilos contactos */
+
+.container__contenido__contacto{
+    margin-top: 30px;
+    width: 65%;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+   
+}
+.contactos__contenido__form__input{
+    display: flex;
+    flex-direction: column;
+}
+.container__contenido__contacto__imagenes img{
+   width: 15%;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+.container__contenido__form__field{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   border: solid 1px black;
+   border-radius: 10px;
+   padding: 20px;
+}
+.boton-enviar{
+    background-color: pink;
+    border-radius: 10px;
+    border: solid;
+}
+.boton-enviar:hover{
+    background-color: hsla(350, 100%, 88%,0.6);
+    transition-duration: 300ms;
 }
 
 
@@ -111,6 +147,7 @@ footer{
     .sobre-mi .container__contenido__miarte img{
         width: 50%;
     }
+    /* estilos de desktop servicios */
     .container__servicios{
         flex-direction: column;
     }
@@ -125,6 +162,17 @@ footer{
     .container__servicios .servicio p{
         width: 400px;
     }
-  
+  /* estilos de desktop de contactos */
+    .contactos{
+        flex-direction: column;
+    }
+    .container__contenido__form{
+        width: 70%;
+        padding: 30px;
+    }
+    .container__contenido__contacto__imagenes img{
+        width: 10%;
+    }
+    
 }   
 
