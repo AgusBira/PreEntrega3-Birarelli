@@ -58,6 +58,13 @@
     width: 50%;
 
 }
+.servicio{
+    width: 90%;
+}
+.servicio img{
+    width: 90%;
+}
+
 
 
 /* estilos footer */
@@ -104,7 +111,20 @@ footer{
     .sobre-mi .container__contenido__miarte img{
         width: 50%;
     }
-
+    .container__servicios{
+        flex-direction: column;
+    }
+    .container__servicios .servicio{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        place-items: center;
+        
+    }
+    .container__servicios .servicio p{
+        width: 400px;
+    }
   
 }   
 
