@@ -224,7 +224,6 @@ footer{
         grid-template-columns: repeat(2,1fr);
         margin-top: 10px;
         place-content: center;
-        margin-left: 100px;
     }
     .container .container__img .container__img__descripcion{
         position: absolute;
