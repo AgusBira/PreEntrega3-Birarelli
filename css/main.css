@@ -1,8 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import 'animate.css';
 /* reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.title {
+  background-color: hsla(350, 100%, 88%, 0.3);
+  padding: 10px;
+}
+.title .animate__fadeInDown {
+  --animate-duration: 2s;
+}
+.title :root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+.title h1 {
+  font-family: "Dancing Script", cursive;
+  margin-top: 10px;
+  font-size: 5rem;
+  text-align: center;
+}
+.title p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.container .container__img__imgindex {
+  width: 400px;
+  height: 400px;
+}
+.container .container__img__imgindex img {
+  width: 100%;
+}
+.container .container__contenido {
+  text-align: center;
+}
+.container .container__contenido h3 {
+  font-size: 2rem;
+}
+.container .container__contenido p {
+  font-size: 1.5rem;
+}
+.container .container__contenido a {
+  background-color: pink;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: 200ms;
+}
+.container .container__contenido a:hover {
+  font-size: 25px;
+  transition: 200ms;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pink-bg {
+  background-color: pink;
 }
 
 /*# sourceMappingURL=main.css.map */
