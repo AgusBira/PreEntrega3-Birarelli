@@ -43,6 +43,39 @@
 .container .container__img__imgindex img {
   width: 100%;
 }
+.container .container__img {
+  margin-top: 5px;
+  width: 300px;
+  height: 400px;
+}
+.container .container__img .container__img__descripcion {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  opacity: 0;
+  transition: 200ms;
+}
+.container .container__img .container__img__descripcion h4 {
+  margin-left: 5px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+.container .container__img .container__img__descripcion p {
+  margin-left: 5px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.container .container__img .container__img__descripcion:hover {
+  opacity: 1;
+  transition: 200ms;
+}
+.container .container__img img {
+  width: 100%;
+  height: 100%;
+}
 .container .container__contenido {
   text-align: center;
 }
