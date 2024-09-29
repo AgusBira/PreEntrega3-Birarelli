@@ -152,6 +152,29 @@ footer {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 600px) {
+  .title {
+    width: 100%;
+  }
+  .title h2 {
+    font-size: 6rem;
+    margin-top: 200px;
+  }
+  .container .container__img {
+    width: 600px;
+    height: 700px;
+  }
+  .container .container__img .container__img__descripcion {
+    width: 600px;
+    height: 700px;
+  }
+  .container .container__img .container__img__descripcion h4 {
+    font-size: 5rem;
+  }
+  .container .container__img .container__img__descripcion p {
+    font-size: 3rem;
+  }
+}
 .sobre-mi .container__contenido__descripcion {
   display: flex;
   flex-direction: column;
