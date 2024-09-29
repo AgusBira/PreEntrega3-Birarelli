@@ -61,3 +61,35 @@
         }
     }
 }
+@media screen and (min-width: 600px){
+    .contactos{
+        .container__contenido__contacto{
+            width: 600px;
+            height: 500px;
+            p{
+                font-size: 3rem;
+            }
+        }
+        .container__contenido__form{
+            width: 600px;
+            height: 700px;
+            .container__contenido__form__field{
+                legend{
+                    font-size: 5rem;
+                }
+                .contactos__contenido__form__input{
+                    label{
+                        font-size: 2rem;
+                    }
+                }
+                .boton-enviar{
+                    width: 200px;
+                    height: 70px;
+                    font-size: 1.5rem;
+                }
+            }
+            
+            
+        }
+    }
+}
