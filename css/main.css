@@ -103,6 +103,35 @@ footer {
     transition: 200ms;
   }
 }
+/* estilos desktop index */
+@media screen and (min-width: 1024px) {
+  .title {
+    height: 500px;
+  }
+  .title h1 {
+    margin-top: 150px;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .container__img__imgindex {
+    width: 600px;
+    height: 600px;
+  }
+  .container .container__img__imgindex img {
+    height: 100%;
+    width: 100%;
+  }
+  .container .container__contenido {
+    width: 500px;
+    height: 100%;
+  }
+  .container .container__contenido p {
+    width: 100%;
+  }
+}
 .pink-bg {
   background-color: pink;
 }
