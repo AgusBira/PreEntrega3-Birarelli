@@ -26,3 +26,32 @@
         }
     }
 }
+@media screen and (min-width:600px){
+    .sobre-mi{
+        .title{
+            width: 100%;
+            h2{
+                font-size: 6rem;
+                margin-top: 200px;
+            }
+        }
+        .container__contenido__descripcion{
+            .imagen__descripcion{
+                width: 800px;
+                height: 600px;
+            }
+
+        }
+        .container__contenido{
+            p{
+                font-size: 2rem;
+            }
+        }
+        .container__contenido__miarte{
+            .img__miarte{
+                width: 600px;
+                height: 600px;
+            }
+        }
+    }
+}

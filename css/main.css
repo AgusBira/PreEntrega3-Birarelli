@@ -203,6 +203,26 @@ footer {
   height: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  .sobre-mi .title {
+    width: 100%;
+  }
+  .sobre-mi .title h2 {
+    font-size: 6rem;
+    margin-top: 200px;
+  }
+  .sobre-mi .container__contenido__descripcion .imagen__descripcion {
+    width: 800px;
+    height: 600px;
+  }
+  .sobre-mi .container__contenido p {
+    font-size: 2rem;
+  }
+  .sobre-mi .container__contenido__miarte .img__miarte {
+    width: 600px;
+    height: 600px;
+  }
+}
 .container .container__cuentos {
   display: flex;
   flex-direction: column;
