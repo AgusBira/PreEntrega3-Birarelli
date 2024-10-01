@@ -1,7 +1,50 @@
 .container{
-    .container__cuentos{
+    margin-top: 20px;
+    .container__cuento__titulocuento{
+        font-size: 3rem;
+        text-align: center;
+        font-style: italic;
+
+        
+
+    }
+    .container__cuento{
+        border-left: solid hsl(0, 0%, 0% ,0.2);
+        border-right: solid hsl(0, 0%, 0% ,0.2);
+        padding: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        .container__cuento__contenido{
+            width: 100%;
+            font-size: 1.5rem;
+            text-align: center;
+            font-style:italic;
+        }
+    }
+    .container__img{
+        width: 300px;
+        height: 100%;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (min-width:600px){
+    .container{
+            .container__cuento__titulocuento{
+                font-size: 4rem;
+            }
+            .container__cuento__contenido{
+                p , span{
+                    font-size: 2rem
+                }
+            }
+            .container__img{
+                width: 500px;
+            }
     }
 }
