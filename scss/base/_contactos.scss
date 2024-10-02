@@ -106,5 +106,8 @@
     .contactos__contenido{
         display: flex;
         gap: 50px;
+        .container__contenido__contacto{
+            height: 100%;
+        }
     }
 }
