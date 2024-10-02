@@ -1,51 +1,61 @@
-.contactos{
-    .container__contenido__contacto{
+.contactos {
+    .container__contenido__contacto {
         background-color: $color-fondo;
         margin-top: 10px;
         padding: 30px;
         width: 400px;
         height: 400px;
-        p{
+
+        p {
             font-size: 2rem;
         }
-        .container__contenido__contacto__imagenes{
+
+        .container__contenido__contacto__imagenes {
             width: 150px;
             margin: 0 auto;
-            a{
+
+            a {
                 width: 100%;
-                img{
+
+                img {
                     width: 100%;
                 }
             }
         }
     }
-    .container__contenido__form{
+
+    .container__contenido__form {
         background-color: $color-fondo;
         margin-top: 10px;
         padding: 30px;
         width: 400px;
         height: 400px;
-        .container__contenido__form__field{
+
+        .container__contenido__form__field {
             display: flex;
             flex-direction: column;
             gap: 20px;
-            legend{
+
+            legend {
                 font-size: 2rem;
             }
-            .contactos__contenido__form__input{
+
+            .contactos__contenido__form__input {
                 display: flex;
                 flex-direction: column;
-                input{
+
+                input {
                     border: solid 2px black;
                     border-radius: 5px;
                 }
-                
-                textarea{
+
+                textarea {
                     border: solid 2px black;
                     border-radius: 5px;
                 }
             }
-            .boton-enviar{
+
+            .boton-enviar {
                 width: 100px;
                 padding: 10px;
                 background-color: pink;
@@ -54,7 +64,8 @@
                 margin: 0 auto;
                 transition: 200ms;
             }
-            .boton-enviar:hover{
+
+            .boton-enviar:hover {
                 background-color: rgb(255, 170, 184);
                 transform: scale(1.2);
                 transition: 200ms;
@@ -62,37 +73,45 @@
         }
     }
 }
-@media screen and (min-width: 600px){
-    .contactos{
-        .contactos__contenido{
-            .container__contenido__contacto{
+
+@media screen and (min-width: 600px) {
+    .contactos {
+        .contactos__contenido {
+            .container__contenido__contacto {
                 width: 700px;
                 height: 500px;
-                p{
+
+                p {
                     font-size: 3.5rem;
                 }
             }
-            .container__contenido__form{
+
+            .container__contenido__form {
                 width: 700px;
                 height: 850px;
-                .container__contenido__form__field{
-                    legend{
+
+                .container__contenido__form__field {
+                    legend {
                         font-size: 5rem;
                     }
-                    .contactos__contenido__form__input{
-                        label{
+
+                    .contactos__contenido__form__input {
+                        label {
                             font-size: 2rem;
                         }
-                        input{
+
+                        input {
                             height: 50px;
                             font-size: 40px;
                         }
-                        textarea{
+
+                        textarea {
                             height: 150px;
                             font-size: 1.5rem;
                         }
                     }
-                    .boton-enviar{
+
+                    .boton-enviar {
                         width: 200px;
                         height: 70px;
                         font-size: 1.5rem;
@@ -102,11 +121,13 @@
         }
     }
 }
-@media screen and (min-width:1024px){
-    .contactos__contenido{
+
+@media screen and (min-width:1024px) {
+    .contactos__contenido {
         display: flex;
         gap: 50px;
-        .container__contenido__contacto{
+
+        .container__contenido__contacto {
             height: 100%;
         }
     }
